@@ -40,6 +40,7 @@ nav {
   justify-content: space-between;
   box-shadow: 0 0 10px  rgb(0, 0, 0, 0.2);
   position: sticky;
+  position: -webkit-sticky;  /* this is important as well for safari users */
   top: 0;
   z-index: 10;
   background: #ffffff;
