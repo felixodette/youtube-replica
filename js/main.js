@@ -6,3 +6,13 @@ menuIcon.onclick = function () {
   rightBar.classList.toggle("small-right-bar");
   container.classList.toggle("large-container");
 }
+
+// window.onscroll = function () {myFunction()};
+// let header = document.querySelector('nav');
+// let sticky = header.offsetTop;
+//
+// function myFunction() {
+//   if (window.pageYOffset > sticky) {
+//     header.classList.add('sticky');
+//   }
+// }
