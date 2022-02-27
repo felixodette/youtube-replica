@@ -38,12 +38,13 @@ img {
 nav {
   padding: 10px 2%;
   justify-content: space-between;
-  box-shadow: 0 0 10px  rgb(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px  rgba(0, 0, 0, 0.2);
+  background: #fff;
   position: sticky;
   position: -webkit-sticky;  /* this is important as well for safari users */
   top: 0;
-  z-index: 10;
-  background: #ffffff;
+  z-index: 100;
+
 }
 
 .nav-right img {
@@ -250,6 +251,30 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
+
+/*----- play-video page-----*/
+.play-container {
+  padding-left: 2%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.play-video {
+  flex-basis: 69%;
+}
+
+.right-sidebar {
+  flex-basis: 30%;
+}
+
+/*.play-video iframe {*/
+/*  width: 100%;*/
+/*}*/
+
 
 /*
  * Remove the gap between audio, canvas, iframes,
