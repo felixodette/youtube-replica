@@ -42,7 +42,9 @@ nav {
   box-shadow: 0 0 10px  rgb(0, 0, 0, 0.2);
   background: #fff;
   position: sticky;
+  position: -webkit-sticky;  /* this is important as well for safari users */
   top: 20px;
+
   z-index: 10;
 }
 
