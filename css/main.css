@@ -11,7 +11,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+body {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
@@ -33,28 +33,19 @@ img {
 .flex-div {
   display: flex;
   align-items: center;
-}
-
-nav {
-  z-index: 50;
+  overflow: hidden;
   padding: 10px 2%;
   justify-content: space-between;
   box-shadow: 0 0 10px  rgba(0, 0, 0, 0.2);
   background: #fff;
-  position: sticky;
-  position: -webkit-sticky;  /* this is important as well for safari users */
-  top: 0;
   z-index: 100;
 }
 
-/*.sticky {*/
-/*  position: fixed;*/
-/*  top: 0;*/
-/*  width: 100%;*/
-/*  .nav-right {*/
-/*    padding-right: 25px;*/
-/*  }*/
-/*}*/
+.sticky {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
 
 .nav-right img {
   width: 25px;
